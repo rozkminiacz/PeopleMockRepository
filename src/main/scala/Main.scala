@@ -20,7 +20,7 @@ object Main extends App {
   val ctrl = new PersonController(service)
 
   val host = "localhost"
-  val port = 8081
+  val port = 8080
 
   val route = ctrl.route
 
